@@ -1,0 +1,1103 @@
+{
+ "n_rows": 1000,
+ "n_opened_before_inuse": 76,
+ "n_short_causal": 64,
+ "days_in_service": {
+  "count": 924.0,
+  "mean": 241.7,
+  "std": 161.0,
+  "min": 0.0,
+  "25%": 106.5,
+  "50%": 228.0,
+  "75%": 365.2,
+  "max": 615.0,
+  "q90": 472.4000000000001
+ },
+ "days_build_to_inuse": {
+  "count": 1000.0,
+  "mean": 121.1,
+  "std": 99.5,
+  "min": 1.0,
+  "25%": 46.0,
+  "50%": 91.0,
+  "75%": 164.2,
+  "max": 596.0
+ },
+ "monthly": {
+  "2019-08-01": 3,
+  "2019-09-01": 12,
+  "2019-10-01": 22,
+  "2019-11-01": 31,
+  "2019-12-01": 27,
+  "2020-01-01": 67,
+  "2020-02-01": 69,
+  "2020-03-01": 68,
+  "2020-04-01": 50,
+  "2020-05-01": 64,
+  "2020-06-01": 65,
+  "2020-07-01": 54,
+  "2020-08-01": 60,
+  "2020-09-01": 45,
+  "2020-10-01": 63,
+  "2020-11-01": 56,
+  "2020-12-01": 37,
+  "2021-01-01": 39,
+  "2021-02-01": 42,
+  "2021-03-01": 51,
+  "2021-04-01": 47,
+  "2021-05-01": 27
+ },
+ "language": {
+  "en": 984,
+  "fr": 12,
+  "es": 4
+ },
+ "validation_recall": 0.6764705882352942,
+ "validation_n": 34,
+ "cf_subtype": {
+  "Internal hardware fault documented": 340,
+  "Replaced \u2013 cause not documented": 232,
+  "Replaced on TAC/engineering advice (no fault detail)": 132
+ },
+ "issue_category": {
+  "Component Failure": 704,
+  "Communication / Network Fault": 120,
+  "Electrical / Wiring Issue": 84,
+  "Software / Firmware Glitch": 59,
+  "Antenna / Reception Issue": 11,
+  "Assembly / Installation Quality": 8,
+  "Other / Unclassified": 8,
+  "No Fault Found / Unverified": 6
+ },
+ "failure_components": {
+  "Radio / Head Unit": 929,
+  "Display / Screen": 423,
+  "Rear Camera": 132,
+  "Satellite Radio (XM)": 131,
+  "Software / Firmware": 76,
+  "Navigation / GPS": 67,
+  "Telematics / OnStar": 60,
+  "Bluetooth / Phone": 58,
+  "Antenna / Coax Cable": 49,
+  "Control Buttons / Knobs": 42
+ },
+ "failure_conditions": {
+  "Inoperative / Dead": 316,
+  "Black / Blank Screen": 212,
+  "Intermittent Operation": 199,
+  "Communication Loss / Network Fault": 134,
+  "No Sound / Audio Loss": 132,
+  "Rear Camera Issue": 89,
+  "Reboot / Restart / Reset": 77,
+  "Freeze / Lag / Unresponsive": 76,
+  "Error / Warning Message": 69,
+  "Satellite Signal Loss": 65,
+  "Bluetooth / Phone Connection Failure": 45,
+  "Navigation / GPS Error": 40
+ },
+ "fix_components": {
+  "Radio": 842,
+  "USB": 285,
+  "SPS": 175,
+  "Unspecified": 101,
+  "Display": 32,
+  "Wiring / Connector": 22,
+  "OTA": 19,
+  "Antenna": 9,
+  "Camera": 6,
+  "Telematics Module": 4,
+  "USB Hub / Port": 1,
+  "Amplifier": 1
+ },
+ "fix_conditions": {
+  "Replaced": 851,
+  "Programmed / Reflashed": 681,
+  "Repaired / Cleaned": 85,
+  "Not Specified": 44,
+  "Reset / Reboot": 15
+ },
+ "triggers": {
+  "None Identified": 866,
+  "At Start-up / Ignition": 81,
+  "When Reversing": 44,
+  "Phone / Device Connection": 6,
+  "After Software Update": 5,
+  "After Parking / Overnight": 5,
+  "Weather / Temperature": 3
+ },
+ "top_pairs": [
+  [
+   "Radio / Head Unit",
+   "Inoperative / Dead",
+   298
+  ],
+  [
+   "Radio / Head Unit",
+   "Black / Blank Screen",
+   206
+  ],
+  [
+   "Display / Screen",
+   "Black / Blank Screen",
+   188
+  ],
+  [
+   "Radio / Head Unit",
+   "Intermittent Operation",
+   184
+  ],
+  [
+   "Display / Screen",
+   "Inoperative / Dead",
+   131
+  ],
+  [
+   "Radio / Head Unit",
+   "No Sound / Audio Loss",
+   131
+  ],
+  [
+   "Radio / Head Unit",
+   "Communication Loss / Network Fault",
+   126
+  ],
+  [
+   "Display / Screen",
+   "Intermittent Operation",
+   91
+  ]
+ ],
+ "repair_overall": {
+  "part_replaced": 0.851,
+  "radio_replaced": 0.842,
+  "reprogrammed": 0.681,
+  "escalated_tac": 0.301,
+  "repeat_visit": 0.067
+ },
+ "repair_by_cat": [
+  {
+   "Issue_Category": "Antenna / Reception Issue",
+   "events": 11,
+   "part_replaced": 1.0,
+   "radio_replaced": 0.91,
+   "reprogrammed": 0.64,
+   "escalated_tac": 0.55,
+   "repeat_visit": 0.27,
+   "median_days_in_service": 255.0
+  },
+  {
+   "Issue_Category": "Assembly / Installation Quality",
+   "events": 8,
+   "part_replaced": 0.88,
+   "radio_replaced": 0.75,
+   "reprogrammed": 0.5,
+   "escalated_tac": 0.25,
+   "repeat_visit": 0.0,
+   "median_days_in_service": 260.5
+  },
+  {
+   "Issue_Category": "Communication / Network Fault",
+   "events": 120,
+   "part_replaced": 0.63,
+   "radio_replaced": 0.63,
+   "reprogrammed": 0.72,
+   "escalated_tac": 0.3,
+   "repeat_visit": 0.05,
+   "median_days_in_service": 230.0
+  },
+  {
+   "Issue_Category": "Component Failure",
+   "events": 704,
+   "part_replaced": 0.95,
+   "radio_replaced": 0.95,
+   "reprogrammed": 0.67,
+   "escalated_tac": 0.3,
+   "repeat_visit": 0.07,
+   "median_days_in_service": 209.0
+  },
+  {
+   "Issue_Category": "Electrical / Wiring Issue",
+   "events": 84,
+   "part_replaced": 0.79,
+   "radio_replaced": 0.76,
+   "reprogrammed": 0.67,
+   "escalated_tac": 0.31,
+   "repeat_visit": 0.1,
+   "median_days_in_service": 262.0
+  },
+  {
+   "Issue_Category": "No Fault Found / Unverified",
+   "events": 6,
+   "part_replaced": 0.67,
+   "radio_replaced": 0.67,
+   "reprogrammed": 0.33,
+   "escalated_tac": 0.17,
+   "repeat_visit": 0.0,
+   "median_days_in_service": 386.0
+  },
+  {
+   "Issue_Category": "Other / Unclassified",
+   "events": 8,
+   "part_replaced": 0.0,
+   "radio_replaced": 0.0,
+   "reprogrammed": 0.0,
+   "escalated_tac": 0.12,
+   "repeat_visit": 0.12,
+   "median_days_in_service": 281.5
+  },
+  {
+   "Issue_Category": "Software / Firmware Glitch",
+   "events": 59,
+   "part_replaced": 0.27,
+   "radio_replaced": 0.25,
+   "reprogrammed": 0.9,
+   "escalated_tac": 0.36,
+   "repeat_visit": 0.05,
+   "median_days_in_service": 310.0
+  }
+ ],
+ "category_trend": [
+  {
+   "category": "Antenna / Reception Issue",
+   "spearman_rho": -0.52,
+   "p_value": 0.295,
+   "share_first_q_%": 2.5,
+   "share_last_q_%": 0.0
+  },
+  {
+   "category": "Assembly / Installation Quality",
+   "spearman_rho": -0.75,
+   "p_value": 0.084,
+   "share_first_q_%": 2.5,
+   "share_last_q_%": 0.8
+  },
+  {
+   "category": "Communication / Network Fault",
+   "spearman_rho": -0.37,
+   "p_value": 0.468,
+   "share_first_q_%": 20.0,
+   "share_last_q_%": 13.6
+  },
+  {
+   "category": "Component Failure",
+   "spearman_rho": -0.14,
+   "p_value": 0.787,
+   "share_first_q_%": 63.7,
+   "share_last_q_%": 64.4
+  },
+  {
+   "category": "Electrical / Wiring Issue",
+   "spearman_rho": 0.94,
+   "p_value": 0.005,
+   "share_first_q_%": 7.5,
+   "share_last_q_%": 9.1
+  },
+  {
+   "category": "No Fault Found / Unverified",
+   "spearman_rho": 0.75,
+   "p_value": 0.084,
+   "share_first_q_%": 0.0,
+   "share_last_q_%": 0.8
+  },
+  {
+   "category": "Other / Unclassified",
+   "spearman_rho": 0.81,
+   "p_value": 0.05,
+   "share_first_q_%": 0.0,
+   "share_last_q_%": 0.8
+  },
+  {
+   "category": "Software / Firmware Glitch",
+   "spearman_rho": 0.6,
+   "p_value": 0.208,
+   "share_first_q_%": 3.8,
+   "share_last_q_%": 10.6
+  }
+ ],
+ "quarters": {
+  "2019Q3": 15,
+  "2019Q4": 80,
+  "2020Q1": 204,
+  "2020Q2": 179,
+  "2020Q3": 159,
+  "2020Q4": 156,
+  "2021Q1": 132,
+  "2021Q2": 75
+ },
+ "ttc_cdf": {
+  "30": 0.09199134199134198,
+  "90": 0.21103896103896103,
+  "180": 0.4264069264069264,
+  "365": 0.75
+ },
+ "chi2_plant": {
+  "chi2": 11.571899811677817,
+  "dof": 15,
+  "p": 0.7111009508709916
+ },
+ "kruskal": {
+  "H": 10.789016848707574,
+  "p": 0.012923200193840394
+ },
+ "plant_counts": {
+  "Fort Wayne": 217,
+  "Flint": 208,
+  "Silao": 199,
+  "Spring Hill - Truck": 169,
+  "Lansing Delta": 142,
+  "Ramos Arizpe": 39,
+  "Fairfax II": 16,
+  "Lansing - LGR": 10
+ },
+ "make_counts": {
+  "ThunderVolt": 488,
+  "NovaSprint": 335,
+  "NebulaCruiser": 125,
+  "TurboFlux": 52
+ },
+ "model_counts": {
+  "HyperFury X": 148,
+  "TurboFlare": 117,
+  "QuantumRider": 109,
+  "AeroSpecter": 86,
+  "NebulaJet": 77,
+  "ElectroStreak": 75,
+  "StellarGlide": 62,
+  "ShadowPulse": 61,
+  "FusionNova": 59,
+  "SolarStriker": 52
+ },
+ "complaint_counts": {
+  "Audio/Entertainment/Navigation - Audio": 337,
+  "Audio/Entertainment/Navigation - Other issues": 263,
+  "Audio/Entertainment/Navigation - Communication": 194,
+  "Audio/Entertainment/Navigation - Video": 103,
+  "Features/Controls/Displays - Other issues": 47,
+  "Audio/Entertainment/Navigation - Navigation": 32,
+  "Features/Controls/Displays - Gauges/Warning Lights": 12,
+  "Audio/Entertainment/Navigation - Abnormal Noise": 11,
+  "Features/Controls/Displays - Odometer": 1
+ },
+ "causal_counts": {
+  "Module/Component-No/Incorrect Communication": 377,
+  "Module/Component-Shorted": 237,
+  "Module/Component-Registers Incorrectly": 121,
+  "Wiring/Electrical/Sensors-No/Incorrect Communication": 50,
+  "Module/Component-Broken": 41,
+  "Wiring/Electrical/Sensors-Shorted": 23,
+  "Other-Campaign/ Tech Bulletin": 22,
+  "Other-Follow operation": 22,
+  "Other-No trouble found - adjusted / reprogrammed": 21,
+  "Wiring/Electrical/Sensors-Registers Incorrectly": 12
+ },
+ "plant_category_pct": {
+  "Fairfax II": {
+   "Antenna / Reception Issue": 0.0,
+   "Assembly / Installation Quality": 0.0,
+   "Communication / Network Fault": 12.5,
+   "Component Failure": 87.5,
+   "Electrical / Wiring Issue": 0.0,
+   "No Fault Found / Unverified": 0.0,
+   "Other / Unclassified": 0.0,
+   "Software / Firmware Glitch": 0.0
+  },
+  "Flint": {
+   "Antenna / Reception Issue": 1.0,
+   "Assembly / Installation Quality": 1.9,
+   "Communication / Network Fault": 11.5,
+   "Component Failure": 68.3,
+   "Electrical / Wiring Issue": 11.5,
+   "No Fault Found / Unverified": 0.0,
+   "Other / Unclassified": 0.5,
+   "Software / Firmware Glitch": 5.3
+  },
+  "Fort Wayne": {
+   "Antenna / Reception Issue": 1.4,
+   "Assembly / Installation Quality": 0.5,
+   "Communication / Network Fault": 13.8,
+   "Component Failure": 67.7,
+   "Electrical / Wiring Issue": 8.8,
+   "No Fault Found / Unverified": 0.5,
+   "Other / Unclassified": 1.8,
+   "Software / Firmware Glitch": 5.5
+  },
+  "Lansing - LGR": {
+   "Antenna / Reception Issue": 0.0,
+   "Assembly / Installation Quality": 0.0,
+   "Communication / Network Fault": 10.0,
+   "Component Failure": 70.0,
+   "Electrical / Wiring Issue": 10.0,
+   "No Fault Found / Unverified": 0.0,
+   "Other / Unclassified": 10.0,
+   "Software / Firmware Glitch": 0.0
+  },
+  "Lansing Delta": {
+   "Antenna / Reception Issue": 0.7,
+   "Assembly / Installation Quality": 0.7,
+   "Communication / Network Fault": 13.4,
+   "Component Failure": 70.4,
+   "Electrical / Wiring Issue": 7.0,
+   "No Fault Found / Unverified": 0.7,
+   "Other / Unclassified": 0.7,
+   "Software / Firmware Glitch": 6.3
+  },
+  "Ramos Arizpe": {
+   "Antenna / Reception Issue": 0.0,
+   "Assembly / Installation Quality": 2.6,
+   "Communication / Network Fault": 10.3,
+   "Component Failure": 82.1,
+   "Electrical / Wiring Issue": 0.0,
+   "No Fault Found / Unverified": 2.6,
+   "Other / Unclassified": 0.0,
+   "Software / Firmware Glitch": 2.6
+  },
+  "Silao": {
+   "Antenna / Reception Issue": 0.5,
+   "Assembly / Installation Quality": 0.0,
+   "Communication / Network Fault": 11.6,
+   "Component Failure": 71.9,
+   "Electrical / Wiring Issue": 9.0,
+   "No Fault Found / Unverified": 0.5,
+   "Other / Unclassified": 0.5,
+   "Software / Firmware Glitch": 6.0
+  },
+  "Spring Hill - Truck": {
+   "Antenna / Reception Issue": 2.4,
+   "Assembly / Installation Quality": 0.6,
+   "Communication / Network Fault": 10.1,
+   "Component Failure": 70.4,
+   "Electrical / Wiring Issue": 7.1,
+   "No Fault Found / Unverified": 1.2,
+   "Other / Unclassified": 0.0,
+   "Software / Firmware Glitch": 8.3
+  }
+ },
+ "silhouette": {
+  "A": {
+   "6": 0.09057173554099361,
+   "7": 0.09876888305654666,
+   "8": 0.10001114439791901,
+   "9": 0.10683700864879021,
+   "10": 0.11426423924995786
+  },
+  "B": {
+   "6": 0.05666367601357388,
+   "7": 0.060825532296018156,
+   "8": 0.06821007277050799,
+   "9": 0.0722227223176815,
+   "10": 0.0757293452401292
+  }
+ },
+ "lda": {
+  "0": [
+   "start",
+   "module",
+   "communication",
+   "internal",
+   "signal",
+   "power",
+   "screen",
+   "ground",
+   "failure",
+   "advised"
+  ],
+  "1": [
+   "camera",
+   "module",
+   "inop",
+   "internal",
+   "cable",
+   "rear",
+   "video",
+   "fault",
+   "coax",
+   "screen"
+  ],
+  "2": [
+   "card",
+   "error",
+   "navigation",
+   "audio",
+   "message",
+   "internal",
+   "antenna",
+   "nav",
+   "play",
+   "change"
+  ],
+  "3": [
+   "screen",
+   "display",
+   "blank",
+   "internal",
+   "fault",
+   "black",
+   "audio",
+   "controls",
+   "sound",
+   "power"
+  ],
+  "4": [
+   "ground",
+   "power",
+   "ethernet",
+   "communication",
+   "circuits",
+   "bus",
+   "screen",
+   "set",
+   "circuit",
+   "data"
+  ],
+  "5": [
+   "update",
+   "software",
+   "phone",
+   "updates",
+   "advised",
+   "failed",
+   "reset",
+   "tried",
+   "available",
+   "bluetooth"
+  ]
+ },
+ "lda_sizes": {
+  "0": 154,
+  "1": 150,
+  "2": 127,
+  "3": 254,
+  "4": 144,
+  "5": 171
+ },
+ "profA": [
+  {
+   "cluster": "A4 General radio malfunction (catch-all: OnStar/XM/update messages)",
+   "events": 326,
+   "share_%": 32.6,
+   "top symptoms": "Inoperative / Dead, Intermittent Operation, Communication Loss / Network Fault",
+   "top components": "Radio / Head Unit, Display / Screen, Satellite Radio (XM)",
+   "main issue category": "Component Failure",
+   "part replaced %": 82,
+   "reprogram only %": 11,
+   "TAC escalated %": 29,
+   "median days in service": 240.0,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "A2 Black screen / blackout while driving",
+   "events": 119,
+   "share_%": 11.9,
+   "top symptoms": "Black / Blank Screen, Intermittent Operation, Inoperative / Dead",
+   "top components": "Radio / Head Unit, Display / Screen, Rear Camera",
+   "main issue category": "Component Failure",
+   "part replaced %": 87,
+   "reprogram only %": 8,
+   "TAC escalated %": 27,
+   "median days in service": 276.5,
+   "top plant": "Silao"
+  },
+  {
+   "cluster": "A5 Black display at start-up / remote start",
+   "events": 102,
+   "share_%": 10.2,
+   "top symptoms": "Inoperative / Dead, Black / Blank Screen, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Software / Firmware",
+   "main issue category": "Component Failure",
+   "part replaced %": 86,
+   "reprogram only %": 13,
+   "TAC escalated %": 35,
+   "median days in service": 171.5,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "A9 Rear / backup camera inoperative",
+   "events": 89,
+   "share_%": 8.9,
+   "top symptoms": "Rear Camera Issue, Inoperative / Dead, Intermittent Operation",
+   "top components": "Rear Camera, Radio / Head Unit, Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 85,
+   "reprogram only %": 9,
+   "TAC escalated %": 21,
+   "median days in service": 237.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "A3 Satellite signal loss & unexpected shut-off",
+   "events": 82,
+   "share_%": 8.2,
+   "top symptoms": "Reboot / Restart / Reset, Intermittent Operation, Satellite Signal Loss",
+   "top components": "Radio / Head Unit, Satellite Radio (XM), Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 89,
+   "reprogram only %": 6,
+   "TAC escalated %": 37,
+   "median days in service": 222.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "A7 Blank screen at start-up / key cycle",
+   "events": 71,
+   "share_%": 7.1,
+   "top symptoms": "Black / Blank Screen, Intermittent Operation, Communication Loss / Network Fault",
+   "top components": "Radio / Head Unit, Display / Screen, Rear Camera",
+   "main issue category": "Component Failure",
+   "part replaced %": 85,
+   "reprogram only %": 11,
+   "TAC escalated %": 17,
+   "median days in service": 224.5,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "A6 No sound + dark display",
+   "events": 60,
+   "share_%": 6.0,
+   "top symptoms": "No Sound / Audio Loss, Inoperative / Dead, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Satellite Radio (XM)",
+   "main issue category": "Component Failure",
+   "part replaced %": 92,
+   "reprogram only %": 3,
+   "TAC escalated %": 28,
+   "median days in service": 172.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "A1 Screen dead / inoperative",
+   "events": 53,
+   "share_%": 5.3,
+   "top symptoms": "Inoperative / Dead, Communication Loss / Network Fault, No Sound / Audio Loss",
+   "top components": "Radio / Head Unit, Display / Screen, Satellite Radio (XM)",
+   "main issue category": "Component Failure",
+   "part replaced %": 89,
+   "reprogram only %": 8,
+   "TAC escalated %": 38,
+   "median days in service": 183.0,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "A0 Navigation / SD-card read errors",
+   "events": 49,
+   "share_%": 4.9,
+   "top symptoms": "Navigation / GPS Error, Error / Warning Message, Inoperative / Dead",
+   "top components": "Radio / Head Unit, Navigation / GPS, Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 80,
+   "reprogram only %": 8,
+   "TAC escalated %": 47,
+   "median days in service": 265.0,
+   "top plant": "Silao"
+  },
+  {
+   "cluster": "A8 Bluetooth / phone pairing failure",
+   "events": 49,
+   "share_%": 4.9,
+   "top symptoms": "Bluetooth / Phone Connection Failure, Intermittent Operation, Inoperative / Dead",
+   "top components": "Radio / Head Unit, Bluetooth / Phone, Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 86,
+   "reprogram only %": 10,
+   "TAC escalated %": 33,
+   "median days in service": 209.0,
+   "top plant": "Fort Wayne"
+  }
+ ],
+ "profB": [
+  {
+   "cluster": "B9 Generic display/screen diagnosis (catch-all, no specific cause)",
+   "events": 275,
+   "share_%": 27.5,
+   "top symptoms": "Inoperative / Dead, Intermittent Operation, Black / Blank Screen",
+   "top components": "Radio / Head Unit, Display / Screen, Satellite Radio (XM)",
+   "main issue category": "Component Failure",
+   "part replaced %": 85,
+   "reprogram only %": 9,
+   "TAC escalated %": 29,
+   "median days in service": 222.5,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "B3 [REVIEW] reset, phone, inop",
+   "events": 116,
+   "share_%": 11.6,
+   "top symptoms": "Inoperative / Dead, Intermittent Operation, Bluetooth / Phone Connection Failure",
+   "top components": "Radio / Head Unit, Display / Screen, Bluetooth / Phone",
+   "main issue category": "Component Failure",
+   "part replaced %": 82,
+   "reprogram only %": 10,
+   "TAC escalated %": 49,
+   "median days in service": 173.0,
+   "top plant": "Silao"
+  },
+  {
+   "cluster": "B1 Network / bus communication loss (Ethernet DTCs)",
+   "events": 106,
+   "share_%": 10.6,
+   "top symptoms": "Communication Loss / Network Fault, Inoperative / Dead, Black / Blank Screen",
+   "top components": "Radio / Head Unit, Display / Screen, Telematics / OnStar",
+   "main issue category": "Communication / Network Fault",
+   "part replaced %": 91,
+   "reprogram only %": 4,
+   "TAC escalated %": 31,
+   "median days in service": 261.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "B2 Software / OTA update failures",
+   "events": 90,
+   "share_%": 9.0,
+   "top symptoms": "Inoperative / Dead, Reboot / Restart / Reset, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Software / Firmware",
+   "main issue category": "Component Failure",
+   "part replaced %": 73,
+   "reprogram only %": 24,
+   "TAC escalated %": 36,
+   "median days in service": 305.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "B7 Control-module replacement (video etc.)",
+   "events": 79,
+   "share_%": 7.9,
+   "top symptoms": "Black / Blank Screen, Inoperative / Dead, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Rear Camera",
+   "main issue category": "Component Failure",
+   "part replaced %": 86,
+   "reprogram only %": 10,
+   "TAC escalated %": 30,
+   "median days in service": 220.0,
+   "top plant": "Lansing Delta"
+  },
+  {
+   "cluster": "B6 Radio no-communication diagnosis (power/ground checked OK)",
+   "events": 74,
+   "share_%": 7.4,
+   "top symptoms": "Inoperative / Dead, Black / Blank Screen, Communication Loss / Network Fault",
+   "top components": "Radio / Head Unit, Display / Screen, Rear Camera",
+   "main issue category": "Component Failure",
+   "part replaced %": 88,
+   "reprogram only %": 11,
+   "TAC escalated %": 19,
+   "median days in service": 247.0,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "B0 Internal radio fault (documented)",
+   "events": 70,
+   "share_%": 7.0,
+   "top symptoms": "Black / Blank Screen, Inoperative / Dead, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Rear Camera",
+   "main issue category": "Component Failure",
+   "part replaced %": 94,
+   "reprogram only %": 3,
+   "TAC escalated %": 14,
+   "median days in service": 195.0,
+   "top plant": "Flint"
+  },
+  {
+   "cluster": "B4 Internal failure \u2013 radio replaced",
+   "events": 67,
+   "share_%": 6.7,
+   "top symptoms": "Inoperative / Dead, Black / Blank Screen, Intermittent Operation",
+   "top components": "Radio / Head Unit, Display / Screen, Satellite Radio (XM)",
+   "main issue category": "Component Failure",
+   "part replaced %": 87,
+   "reprogram only %": 9,
+   "TAC escalated %": 13,
+   "median days in service": 240.0,
+   "top plant": "Silao"
+  },
+  {
+   "cluster": "B8 Camera video / coax cable path",
+   "events": 62,
+   "share_%": 6.2,
+   "top symptoms": "Rear Camera Issue, Inoperative / Dead, Intermittent Operation",
+   "top components": "Radio / Head Unit, Rear Camera, Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 84,
+   "reprogram only %": 10,
+   "TAC escalated %": 29,
+   "median days in service": 236.0,
+   "top plant": "Fort Wayne"
+  },
+  {
+   "cluster": "B5 SD-card / navigation reader errors",
+   "events": 61,
+   "share_%": 6.1,
+   "top symptoms": "Navigation / GPS Error, Inoperative / Dead, Error / Warning Message",
+   "top components": "Radio / Head Unit, Navigation / GPS, Display / Screen",
+   "main issue category": "Component Failure",
+   "part replaced %": 84,
+   "reprogram only %": 2,
+   "TAC escalated %": 39,
+   "median days in service": 175.0,
+   "top plant": "Silao"
+  }
+ ],
+ "termsA": {
+  "A0 Navigation / SD-card read errors": [
+   "card",
+   "navigation",
+   "error",
+   "message",
+   "nav",
+   "reading",
+   "error message",
+   "getting",
+   "gps",
+   "restart"
+  ],
+  "A1 Screen dead / inoperative": [
+   "inop",
+   "screen inop",
+   "screen",
+   "display",
+   "electrical",
+   "touch",
+   "touch screen",
+   "camera inop",
+   "gps",
+   "sirius"
+  ],
+  "A2 Black screen / blackout while driving": [
+   "screen",
+   "black",
+   "screen black",
+   "touch",
+   "touch screen",
+   "driving",
+   "going",
+   "audio",
+   "black screen",
+   "intermittently"
+  ],
+  "A3 Satellite signal loss & unexpected shut-off": [
+   "signal",
+   "shut",
+   "volume",
+   "lost",
+   "sat",
+   "loses",
+   "satellite",
+   "message",
+   "looses",
+   "door"
+  ],
+  "A4 General radio malfunction (catch-all: OnStar/XM/update messages)": [
+   "update",
+   "message",
+   "stays",
+   "onstar",
+   "turning",
+   "keeps",
+   "screen",
+   "channel",
+   "sirius",
+   "previous"
+  ],
+  "A5 Black display at start-up / remote start": [
+   "display",
+   "start",
+   "audio",
+   "remote",
+   "screen",
+   "remote start",
+   "entertainment",
+   "black",
+   "truck",
+   "starting"
+  ],
+  "A6 No sound + dark display": [
+   "sound",
+   "display",
+   "black",
+   "coming",
+   "change",
+   "inop",
+   "black sound",
+   "camera",
+   "play",
+   "drive"
+  ],
+  "A7 Blank screen at start-up / key cycle": [
+   "blank",
+   "screen blank",
+   "screen",
+   "audio",
+   "display",
+   "start",
+   "intermittently",
+   "blank audio",
+   "electrical",
+   "cue screen"
+  ],
+  "A8 Bluetooth / phone pairing failure": [
+   "phone",
+   "bluetooth",
+   "connect",
+   "calls",
+   "contacts",
+   "pair",
+   "connected",
+   "intermittently",
+   "make",
+   "car"
+  ],
+  "A9 Rear / backup camera inoperative": [
+   "camera",
+   "camera inop",
+   "backup camera",
+   "backup",
+   "rear",
+   "inop",
+   "screen",
+   "rear camera",
+   "red",
+   "reverse"
+  ]
+ },
+ "termsB": {
+  "B0 Internal radio fault (documented)": [
+   "internal fault",
+   "fault",
+   "internal",
+   "fault replaced",
+   "module",
+   "update",
+   "onstar",
+   "connections",
+   "dtc",
+   "stored"
+  ],
+  "B1 Network / bus communication loss (Ethernet DTCs)": [
+   "communication",
+   "ethernet",
+   "lost",
+   "bus",
+   "module",
+   "lost communication",
+   "ethernet bus",
+   "dtc",
+   "circuit",
+   "circuits"
+  ],
+  "B2 Software / OTA update failures": [
+   "update",
+   "software",
+   "air",
+   "software update",
+   "failed",
+   "air update",
+   "updates",
+   "bulletin",
+   "internal",
+   "did"
+  ],
+  "B3 [REVIEW] reset, phone, inop": [
+   "reset",
+   "phone",
+   "inop",
+   "bluetooth",
+   "module",
+   "internal",
+   "global",
+   "global reset",
+   "malfunction",
+   "perform"
+  ],
+  "B4 Internal failure \u2013 radio replaced": [
+   "failure",
+   "internal failure",
+   "internal",
+   "failure replaced",
+   "communication",
+   "assembly",
+   "module",
+   "data",
+   "causing",
+   "grounds"
+  ],
+  "B5 SD-card / navigation reader errors": [
+   "card",
+   "short",
+   "internal short",
+   "error",
+   "navigation",
+   "internal",
+   "nav",
+   "replaced card",
+   "short replaced",
+   "message"
+  ],
+  "B6 Radio no-communication diagnosis (power/ground checked OK)": [
+   "power",
+   "ground",
+   "power ground",
+   "data",
+   "circuits",
+   "set",
+   "ground data",
+   "communication",
+   "module",
+   "circuit"
+  ],
+  "B7 Control-module replacement (video etc.)": [
+   "screen",
+   "display",
+   "blank",
+   "audio",
+   "screen blank",
+   "display screen",
+   "replaced display",
+   "control",
+   "updates",
+   "module"
+  ],
+  "B8 Camera video / coax cable path": [
+   "camera",
+   "cable",
+   "coax",
+   "rear",
+   "video",
+   "coax cable",
+   "module",
+   "view",
+   "view camera",
+   "rear view"
+  ],
+  "B9 Generic display/screen diagnosis (catch-all, no specific cause)": [
+   "advised",
+   "module",
+   "assembly",
+   "shorted",
+   "unit",
+   "antenna",
+   "set",
+   "internally",
+   "dtc",
+   "date"
+  ]
+ },
+ "assoc": {
+  "RC\u00d7plant": [
+   60.4,
+   0.2567,
+   0.101
+  ],
+  "Complaint\u00d7plant": [
+   72.5,
+   0.0472,
+   0.11
+  ],
+  "RC\u00d7make": [
+   53.9,
+   0.0016,
+   0.134
+  ],
+  "Cat\u00d7make": [
+   16.8,
+   0.0527,
+   0.076
+  ]
+ }
+}
